@@ -2,19 +2,6 @@
 :imagesdir: imagedir
 
 
-== Explanation
-
-
-I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
-
-Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
-
-In short, instead of designing cards inside Anki lousy Cards screen, you can design cards as if it were just another webpage and then copy your code to Anki.
-
-Convenient mobile card designing advice included!
-
-image::demo.png[]
-
 == Usage
 
 . Clone or download the repo and edit away using your favourite editor. 
@@ -27,6 +14,17 @@ However, in practice, all of the files should come from your collection.media di
 
 I also ask of you, that if you use this template to design your cards, you include the header in the CSS file in your final Anki cards.
 
+== Explanation
+
+I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
+
+Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
+
+In short, instead of designing cards inside Anki lousy Cards screen, you can design cards as if it were just another webpage and then copy your code to Anki.
+
+Convenient mobile card designing advice included!
+
+image::demo.png[]
 == Live Preview
 
 You can also use the debugging tools on Android to change the card CSS directly.
