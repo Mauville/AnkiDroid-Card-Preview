@@ -1,0 +1,125 @@
+<html class="mobile android linux js">
+
+<head>
+    <title>AnkiDroid Flashcard</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="android_asset/flashcard.css">
+    <link rel="stylesheet" type="text/css" href="android_asset/chess.css">
+    <style>
+        /* This is not the place to include custom fonts! Follow the anki manual for doing that */
+        /* https://apps.ankiweb.net/docs/manual.html#installingfonts */
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: bolder;
+            font-style: normal;
+            src: url("android_asset/fonts/OpenSans-Bold.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: lighter;
+            font-style: italic;
+            src: url("android_asset/fonts/OpenSans-LightItalic.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: lighter;
+            font-style: normal;
+            src: url("android_asset/fonts/OpenSans-Light.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: normal;
+            font-style: italic;
+            src: url("android_asset/fonts/OpenSans-Italic.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans-Regular";
+            font-weight: normal;
+            font-style: normal;
+            src: url("android_asset/fonts/OpenSans-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: bolder;
+            font-style: italic;
+            src: url("android_asset/fonts/OpenSans-BoldItalic.ttf");
+        }
+
+        @font-face {
+            font-family: "OpenSans";
+            font-weight: bolder;
+            font-style: normal;
+            font-stretch: condensed;
+            src: url("android_asset/fonts/OpenSans-CondensedBold.ttf");
+        }
+
+        BODY {
+            font-family: 'OpenSans';
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        /* IMPORTANT: This is the zoom defined in the AnkiDroid Reviewing settings. It doesn't matter since you should be using scalable units (em) anyways. */
+        /* Other factors that can potentially mess with the layout are whether the answer buttons and system bars are displayed. */
+
+        body {
+            zoom: 0.7
+        }
+
+        img {
+            zoom: 0.8
+        }
+    </style>
+    <!-- This is the temporary stylesheet we will be using to get edits on PC. You should not include this line in your final code -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="card card1 vertically_centered night_mode chrome">
+    <div id="content">
+        <!-- This is not a mistake. Do not correct -->
+        <div class="answer id=" qa"="">
+
+            <!-- Begin Editable code -->
+
+            <!-- This is the part you should copy to your Anki cards -->
+            <!-- I suggest you use placeholder values for data to help with styling then substitute with Anki {{Fields}} -->
+
+            <!-- You can use  -->
+            <img src="08d64.svg">
+            <img src="E6958F.png">
+            <!-- to display images, but you should use -->
+            <div>{{field that contains the image}}</div>
+            <!-- when copying to Anki -->
+
+            <!-- SCRIPTS -->
+            <!-- AnkiDroid supports scripts natively (Unlike Desktop)*. 
+            <!-- You can either add them to your media folder and link directly... -->
+            <script src="_jquery-3.4.1.min.js"></script>
+            <!--**-->
+            <!-- Or directly embed them in the HTML -->
+            <script>
+                console.log("It just 巳vaporated.")
+            </script>
+
+            <!-- * https://www.reddit.com/r/Anki/comments/3q0fs8/how_to_load_external_javascript/cwb0dvu -->
+            <!-- ** Remember to use an underscore at the beginning to avoid the script being deleted on cleanups! -->
+
+            <!-- Button Bar -->
+            <ul id="buttonbar">
+                <li id="details">Action 1</li>
+                <li id="story">Action 2</li>
+                <li id="dict">Action 3</li>
+            </ul>
+
+            <!-- End Editable code -->
+        </div>
+    </div>
+</body>
+
+</html>

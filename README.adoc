@@ -1,0 +1,38 @@
+﻿= AnkiDroid Card Style Previewer
+Preview cards for AnkiDroid in your desktop browser.
+
+== Explanation
+
+I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
+
+Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
+
+So instead of designing cards inside Anki lousy Cards screen, you can design cards as if it were just another webpage and then copy your code to Anki.
+
+== Usage
+
+. Clone or download the repo and edit using your favourite editor. 
+. Once you finish, copy the HTML, CSS and scripts to Anki.
+
+Unfortunately, you can only preview cards correctly using Chrome/Chromium browsers.
+
+The file structure is so done so you can use placeholder images and scripts in your preview. Place all of them besides the main HTML file. 
+However, in practice, all of the files should come from your collection.media directory.
+
+I also ask of you, that if you use this template to design your cards, you include the header in the CSS file in your final Anki cards.
+
+== Live Preview
+
+You can also use the debugging tools on Android to change the card CSS directly.
+However, it is a much more complicated and error prone process than just using the files.
+
+. Download the alpha release APK from https://github.com/ankidroid/Anki-Android/releases[here]
+. Install and enable HTML/Javascript debugging in Advanced Preferences.
+. Enable Developer Options and USB Debugging in Android setings
+. Connect your device to your computer and activate debugging.
+. Using Chrome on the same computer open chrome://inspect and you should see the webview on the emulator. Click inspect for that WebView and you'll get a full Chrome remote debugging console.
+
+== License
+TBA
+
+

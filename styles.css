@@ -1,0 +1,163 @@
+/* Mobile styling done using AnkiDroid Card Style Previewer. */
+/* https://www.github.com/Mauville/ */
+
+
+/* When you finish styling you card, you should copy this to the styling field in Anki */
+
+/* To help with positioning, I use a CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change body em to adjust to phone size */
+
+/* change #num rem to adjust size */
+
+/* If you wish to have separate styles for desktop and mobile, you can put your rules inside this media query */
+
+@media screen and (min-width: 768px) {
+    /* Desktop rules */
+}
+
+/* All your rules should be done using em and rem units */
+
+/* em units have a cascade effect in which if you change the parent's element's size, all of the children will change accordingly */
+
+/* Set your body font-size to 1em and reduce or increase to adjust card size */
+
+/* Screen sizes are determined by device size and options set in the Reviewing settings in Ankidroid:  */
+
+/* E.g. Card Zoom, Image Zoom, Fullscreen Display, Answer Button Size, Default Font and Font Scaling */
+
+body {
+    background-color: #1a1a1a;
+    /* For example, on a phone with a:  */
+    /* 14.5*6.7 cm display, with card zoom at 70%, hidden system bars, normal answer button size, */
+    /* the effective card size is 561x1063 px */
+    /* I adjusted through trial and error and got .45em as the best resolution */
+    font-size: 1em;
+    /* font-size: .45em; */
+    /* Default fonts in android are Open Sans family.  */
+    /* You can use custom fonts: https://apps.ankiweb.net/docs/manual.html#installingfonts */
+    font-family: Helvetica, sans-serif;
+}
+
+/* You can use the ".night_mode" selector to choose what happens when night mode is toggled */
+
+body.night_mode {
+    background-color: #1a1a1a;
+}
+
+/* I have defined a structure for custom buttons. These default to the top. */
+
+/* You can bind special actions to them using scripting and JQuery. */
+
+/* Button Bar */
+
+#buttonbar {
+    display: flex;
+    font-size: 2.6em;
+    text-align: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+#buttonbar li {
+    font-size: .92em;
+    width: 100%;
+    padding: 1.5em 1em;
+    border: solid 0.6px #8f8d8d8f;
+}
+
+#buttonbar li.night_mode {
+    background-color: #000000;
+}
+
+#details {
+    background-color: #ff3aff;
+}
+
+#story {
+    background-color: rgb(255, 208, 56);
+}
+
+#dict {
+    background-color: rgb(0, 174, 197);
+}
+
+#details.night_mode {
+    color: #ff99ff;
+}
+
+#story.night_mode {
+    color: #FFEE58;
+}
+
+#dict.night_mode {
+    color: #00BCD4;
+}
+
+.toggled {
+    background-color: #262626 !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+/* You can specify device specific fonts with */
+
+.win .japanese {
+    font-family: "Meiryo", "MS Mincho", serif;
+}
+
+.mac .japanese {
+    font-family: "Hiragino Mincho Pro";
+}
+
+.linux .japanese {
+    font-family: "Kochi Mincho";
+}
+
+.mobile .japanese {
+    font-family: "Motoya L Cedar", "Motoya L Maru", "DroidSansJapanese", "Hiragino Mincho ProN";
+}
