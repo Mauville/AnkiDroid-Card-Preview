@@ -4,7 +4,6 @@
 
 == Explanation
 
-image::demo.png[]
 
 I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
 
@@ -12,7 +11,9 @@ Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to creat
 
 In short, instead of designing cards inside Anki lousy Cards screen, you can design cards as if it were just another webpage and then copy your code to Anki.
 
-Convenient mobile card designing advice included.
+Convenient mobile card designing advice included!
+
+image::demo.png[]
 
 == Usage
 
@@ -39,6 +40,6 @@ However, it is a much more complicated and error prone process than just using t
 
 == License
 
-GPL 3.0
+GPL 3.0 +
 Example SVG from KanjiVG
 
