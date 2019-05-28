@@ -3,6 +3,7 @@
 
 
 == Usage
+This is a file structure mimicking that of AnkiDroid card reviewer. Use it to design beautiful cards.
 
 . Clone or download the repo and edit away using your favourite editor. 
 . Once you finish, copy the HTML, CSS and scripts to Anki.
