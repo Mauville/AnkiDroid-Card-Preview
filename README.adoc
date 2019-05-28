@@ -39,9 +39,9 @@ However, it is a much more complicated and error prone process than just using t
 
 == Contributing
 
-Spot a mistake? 
-Open an issue and let me know so we can make this thing even better.
-Thought up of a killing feature? 
+Spot a mistake? +
+Open an issue and let me know so we can make this thing even better. +
+Thought up of a killing feature? +
 Feel free to fork the code and make a Pull Request!
 
 == License
