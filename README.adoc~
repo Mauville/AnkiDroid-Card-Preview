@@ -1,11 +1,10 @@
 ﻿= AnkiDroid Card Style Previewer
-:imagesdir: imagedir
+:imagesdir: /imagedir
 
 
 == Explanation
 
 image::demo.png[]
-
 I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
 
 Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
