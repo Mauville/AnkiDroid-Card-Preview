@@ -37,6 +37,13 @@ However, it is a much more complicated and error prone process than just using t
 . Connect your device to your computer and activate debugging.
 . Using Chrome on the same computer open chrome://inspect and you should see the webview on the emulator. Click inspect for that WebView and you'll get a full Chrome remote debugging console.
 
+== Contributing
+
+Spot a mistake? 
+Open an issue and let me know so we can make this thing even better.
+Thought up of a killing feature? 
+Feel free to fork the code and make a Pull Request!
+
 == License
 
 GPL 3.0 +
