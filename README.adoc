@@ -3,23 +3,24 @@
 
 
 == Usage
-This is a file structure mimicking that of AnkiDroid card reviewer. Use it to design beautiful cards.
+This is a template that tries to recreate the behaviour of how AnkiDroid displays cards. Use it to design beautiful cards for mobile. 
 
-. Clone or download the repo and edit away using your favourite editor. 
+. Clone or download the repo and edit the HTML/CSS files using your favourite editor. 
 . Once you finish, copy the HTML, CSS and scripts to Anki.
+. Replace tag content with Anki `{{fields}}`. 
+. That's it! 🎉
 
-Unfortunately, you can only preview cards correctly using Chrome/Chromium browsers.
+Unfortunately, you can only preview cards correctly in Chrome/Chromium based browsers, as AnkiDroid uses Chrome Web View to display cards.
+You can use placeholder images in this template. Place all of them on the same folder as the main HTML file. 
+However, in practice, all of the files should come from your collection.media directory, using the `{{field}}` notation. 
 
-The file structure is so done so you can use placeholder images and scripts in your preview. Place all of them besides the main HTML file. 
-However, in practice, all of the files should come from your collection.media directory.
-
-I also ask of you, that if you use this template to design your cards, you include the header in the CSS file in your final Anki cards.
+I also ask of you, that if you use this template to design your cards, to include the header in the CSS file in your final Anki styles deck.
 
 == Explanation
 
 I wanted to design good-looking cards for AnkiDroid but the debugging and previewing process was a mess. I had to sync every time I wanted to see how the cards looked and that process took ages.
 
-Since Anki and AnkiDroid use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
+Since Anki and AnkiDroid both use Chrome WebView to display cards, I decided to create an file structure similar to that of those to easily preview cards and modify as you would with any other HTML page.
 
 In short, instead of designing cards inside Anki lousy Cards screen, you can design cards as if it were just another webpage and then copy your code to Anki.
 
@@ -35,13 +36,12 @@ However, it is a much more complicated and error prone process than just using t
 . Install and enable HTML/Javascript debugging in Advanced Preferences.
 . Enable Developer Options and USB Debugging in Android setings
 . Connect your device to your computer and activate debugging.
-. Using Chrome on the same computer open chrome://inspect and you should see the webview on the emulator. Click inspect for that WebView and you'll get a full Chrome remote debugging console.
+. Using Chrome on the same computer open chrome://inspect and you should see your device name. Click on it and Inspect the WebView and you'll get a full Chrome remote debugging console.
 
 == Contributing
 
-Spot a mistake? +
-Open an issue and let me know so we can make this thing even better. +
-Thought up of a killing feature? +
+Spot a mistake? Have a something nice you want to implement?  +
+Open an issue and let me know. +
 Feel free to fork the code and make a Pull Request!
 
 == License
