@@ -10,7 +10,7 @@ This is a template that tries to recreate the behaviour of how AnkiDroid display
 . Replace tag content with Anki `{{fields}}`. 
 . That's it! 🎉
 
-Unfortunately, you can only preview cards correctly in Chrome/Chromium based browsers, as AnkiDroid uses Chrome Web View to display cards.
+Unfortunately, you can only preview cards correctly in Chrome/Chromium based browsers, as AnkiDroid uses Chrome Web View to display cards. +
 You can use placeholder images in this template. Place all of them on the same folder as the main HTML file. 
 However, in practice, all of the files should come from your collection.media directory, using the `{{field}}` notation. 
 
