@@ -4,7 +4,7 @@
 
 == Usage
 
-. Clone or download the repo and edit away using your favourite editor. 
+. Get the https://github.com/Mauville/AnkiDroid-Card-Preview/releases/latest[latest release] and edit away using your favourite editor. 
 . Once you finish, copy the HTML, CSS and scripts to Anki.
 
 Unfortunately, you can only preview cards correctly using Chrome/Chromium browsers.
