@@ -2,6 +2,10 @@
 :imagesdir: imagedir
 
 
+image::demo7.gif[auto, 250]
+image::demo8.png[auto, 250]
+
+
 == Usage
 This is a template that tries to recreate the behaviour of how AnkiDroid displays cards. Use it to design beautiful cards for mobile. 
 
