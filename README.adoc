@@ -1,8 +1,7 @@
-//﻿= AnkiDroid Card Style Previewer
+﻿= AnkiDroid Card Style Previewer
 
 :imagesdir: imagedir
 
-image::https://github.com/Mauville/AnkiDroid-Card-Preview/blob/master/ankidroid_reduced_banner.png[]
 image:demo7.gif[auto, 250]
 image:demo8.png[auto, 250]
 
