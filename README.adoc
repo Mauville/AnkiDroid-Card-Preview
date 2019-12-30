@@ -1,9 +1,9 @@
 ﻿= AnkiDroid Card Style Previewer
+
 :imagesdir: imagedir
 
-
-image::demo7.gif[auto, 250]
-image::demo8.png[auto, 250]
+image:demo7.gif[auto, 250]
+image:demo8.png[auto, 250]
 
 
 == Usage
