@@ -34,12 +34,10 @@ image::demo.png[]
 == Live Preview
 
 You can also use the debugging tools on Android to change the card CSS directly.
-However, it is a much more complicated and error prone process than just using the files.
 
-. Download the alpha release APK from https://github.com/ankidroid/Anki-Android/releases[here]
-. Install and enable HTML/Javascript debugging in Advanced Preferences.
+. Enable HTML/Javascript debugging in Advanced Preferences.
 . Enable Developer Options and USB Debugging in Android setings
-. Connect your device to your computer and activate debugging.
+. Connect your device to your computer and enable debugging in your phone.
 . Using Chrome on the same computer open chrome://inspect and you should see your device name. Click on it and Inspect the WebView and you'll get a full Chrome remote debugging console.
 
 == Contributing
